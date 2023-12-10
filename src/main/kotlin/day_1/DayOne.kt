@@ -51,6 +51,6 @@ class DayOneTaskOne {
 
 fun main() {
     val task = DayOneTaskOne()
-    val text = task.readFile("src/main/resources/day_1/input.txt")
-    println(task.calculateTaskOne(text))
+    val input = task.readFile("src/main/resources/day_1/input.txt")
+    println(task.calculateTaskOne(input))
 }
